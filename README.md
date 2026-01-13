@@ -75,7 +75,7 @@ Time window (default: 60 min) and interval (default: 10 min)
 Route priority: Fastest / Shortest / Eco‑optimized
 **View results:**
 Interactive map with selected route and alternatives
-Departure‑time cards: duration, traffic level (Smooth / Moderate / Heavy), estimated arrival, ⭐ best option
+Departure‑time cards: duration, traffic level (Smooth / Moderate / Heavy), estimated arrival,  best option
 Traffic trend charts
 **Decide & go:**
 Select a departure time and alternative route
