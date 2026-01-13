@@ -29,7 +29,8 @@ Timezone‑aware: All times shown in IST (Indian Standard Time).
 | Configuration | Python-dotenv |
 
 **Project Structure**
-when-2-go/
+when-2-go/:
+
 ├── when2go_streamlit.py      # Main Streamlit app
 ├── tomtom_optimizer.py       # Core routing & optimization logic
 ├── historical_journeys.csv   # Stored journey history
