@@ -1,0 +1,32 @@
+DESCRIPTION:
+
+tom - console , uses geocode start/end addresses using tomtom, 
+-requests routing alternative with traffic from tom routing api
+scans time window upto 60 mins interval to find bfd(best departure time )
+uses folium map saved as routes_map.html , color-coded by traffic (used to draw maps)
+supports only car ,if bike it fallbacks to car cuz bike routes aren't available 
+
+stream - ui inputs(start,end,window,interval,route )
+uses tom geocode + routing through cached functions, then gives bfd across window and stores them in dataframe and alternatives 
+displays interactive folium map inside stream, route card and alternative selection , line grph (plotly chart for travel-time vs departure -time)
+uses history csv for later visualization 
+
+ tech
+python
+tomtom api's(geocoding/search, routing)
+https - requests library 
+folium for map and polyline overlays
+streamlit and streamlit_folium for web ui 
+plotly.express for interactive charts in stream 
+pandas for csv history and data frame handling
+date, time , pytz(python lib for accurate timezone calculations using time zone database called "tzdata") for timezone aware time stamps in ist
+os file operation to save and check csv history 
+
+api's - geocoding for coordinates for an address 
+routing 
+alg and logic - geocoding , fetching routes (single call) , bfd(core alg),
+(sample start/end -> fetch routes and travel time -> store it  -> show best route+charts).
+
+data model and files - history_journey.csv
+
+limitation -  api's, network related , can lag for long searches kani avadhu cuz Hyderabad varaku eh vundhi kabati 

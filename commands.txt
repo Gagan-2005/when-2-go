@@ -1,0 +1,6 @@
+1.install required libraries --(cmd)--pip install requests folium pandas streamlit streamlit-folium plotly pytz
+2.api key - ouNenzcVLTVAEoGWy36BekkRi8GfVdP0
+3.to run -- python tomtom_optimizer.py
+4. for streamlit -- streamlit run when2go_streamlit.py
+5. if u want install requirements.txt --(cmd) --pip install -r requirements.txt
+
