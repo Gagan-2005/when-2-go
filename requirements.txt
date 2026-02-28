@@ -1,7 +1,7 @@
-requests
-folium
-pandas
 streamlit
-streamlit-folium
+pandas
+requests
 plotly
+folium
+streamlit-folium
 pytz
